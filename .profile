@@ -12,3 +12,7 @@ export LESS="-erX"
 
 #prompt. on purple.
 export PS1="\[$(tput setab 5)\]\u@\h:\w $ \[$(tput sgr0)\]"
+
+alias ls='ls --color'
+alias l='ls -l'
+alias ll='ls -la'
