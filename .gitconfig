@@ -1,0 +1,31 @@
+[user]
+	email = anatoly.pashin@gmail.com
+	name = Anatoly Pashin
+[color]
+  diff   = auto
+  status = auto
+  branch = auto
+[color "diff"]
+  meta = yellow
+  frag = cyan
+  old = red
+  new = green
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  di = diff
+  plog = log --pretty=format:'%h \t %cn \t %cr \t %s'
+  # можно указать любые свои алиасы к разным командам
+
+[core]
+  whitespace = trailing-space, space-before-tab, cr-at-eol
