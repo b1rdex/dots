@@ -1,5 +1,10 @@
 test -z "$PROFILEREAD" && . /etc/profile || true
 
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+  PATH="$HOME/bin:$PATH"
+fi
+
 export LANG=en_US.UTF-8
 
 #fix for git's coloring
