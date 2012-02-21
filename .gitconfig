@@ -25,7 +25,7 @@
   co = checkout
   di = diff
   plog = log --pretty=format:'%h \t %cn \t %cr \t %s'
-  # можно указать любые свои алиасы к разным командам
+  tlog = log --oneline --graph --decorate
 
 [core]
   whitespace = trailing-space, space-before-tab, cr-at-eol
