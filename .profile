@@ -14,7 +14,6 @@ export LESS="-erX"
 export PS1="\[$(tput setab 5)\]\u@\h:\w $ \[$(tput sgr0)\]"
 
 alias ls='ls --color'
-alias l='ls -l'
-alias ll='ls -la'
+alias l='ls -la'
 alias gush='git push'
 alias gull='git pull'
